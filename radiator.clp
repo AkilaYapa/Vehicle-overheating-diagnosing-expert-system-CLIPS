@@ -164,7 +164,7 @@
 ;;;* REPAIR RULES *
 ;;;****************
 
-(defrule return-normal ""
+(defrule antifreeze-smell ""
    (smell-antifreeze yes)
    (not (repair ?))
    =>
